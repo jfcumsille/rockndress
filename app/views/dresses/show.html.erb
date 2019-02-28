@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dress.description %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @dress.cost %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @dress.category %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @dress.color %>
+</p>
+
+<%= link_to 'Edit', edit_dress_path(@dress) %> |
+<%= link_to 'Back', dresses_path %>
+
+<!-- TODO: change custom_url -->
+<%= link_to custom_url(:lesson_id => @lesson.id), class: "course-btn" do %><i class="fa fa-calendar-plus-o"></i> Book This Lesson<% end %>

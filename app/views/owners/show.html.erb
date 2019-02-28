@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @owner.photo %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @owner.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @owner.last_name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @owner.phone %>
+</p>
+
+<p>
+  <strong>Instagram:</strong>
+  <%= @owner.instagram %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @owner.user %>
+</p>
+
+<p>
+  <strong>Account:</strong>
+  <%= @owner.account %>
+</p>
+
+<%= link_to 'Edit', edit_owner_path(@owner) %> |
+<%= link_to 'Back', owners_path %>
