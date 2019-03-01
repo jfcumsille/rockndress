@@ -1,11 +1,7 @@
 class CreateOwners < ActiveRecord::Migration[5.2]
   def change
     create_table :owners do |t|
-      t.string :photo
-      t.string :first_name
-      t.string :last_name
-      t.string :phone
-      t.string :instagram
+      t.references :user, foreign_key: true
 
       t.timestamps
     end

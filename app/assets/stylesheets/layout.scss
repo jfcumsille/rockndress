@@ -22,7 +22,7 @@ text-decoration: none;
 }
 
 li a:hover {
-background-color: #111;
+
 }
 
 .active {
@@ -30,10 +30,65 @@ background-color: #4CAF50;
 }
 
 .navbar-logo {
-    font-weight: bold !important;
-    margin-right: 30%;
+    margin-right: 23%;
+    font-family: Arial,Helvetica,sans-serif;
+    font: normal normal normal 22px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    color: #B97F6D !important;
 }
 
 body {
     margin: 0px 0px 0px 0px !important;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.login {
+    float:right;
+    margin-top: 5px;
+}
+
+.signup {
+    float: right;
+    margin-right: 10%;
+    margin-top: 5px;
+}
+
+.body-title {
+    text-align: center;
+    color: white;
+}
+
+.txtNew {
+    text-align: center;
+    color: white;
+
+    h3 {
+        margin-top: 10%;
+        line-height: normal;
+        letter-spacing: normal;
+        font: normal normal normal 112px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: normal; 
+        letter-spacing: 0.35em;
+        font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    }
+}
+
+.navbar-item {
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    margin-top: 5px;
+}
+
+.container {
+    border-radius: 20px;
+    background-color:rgba(238,238,238, 0.7);
+
+}
+
+
+
