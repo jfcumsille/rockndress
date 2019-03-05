@@ -1,0 +1,13 @@
+<h1>User#signup_confirmation</h1>
+
+<p>
+<%=@user.first_name%>
+</p>
+
+<p>
+Gracias por unirte, por favor confirma tu mail en el siguiente link
+</p>
+
+<p>
+<%=link_to "Validar", user_confirmation_url(@user)%>
+</p>
