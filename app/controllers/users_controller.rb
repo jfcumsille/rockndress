@@ -13,7 +13,9 @@ class UsersController < ApplicationController
     def create
         @user = User.new(user_params)
         if @user.save
-            redirect_to root_path
+            log_in @user
+            flash[:success] = "Welcome to the Sample App!"
+            redirect_to @user
         else
             puts @user.errors.full_messages
         end
